@@ -1,0 +1,53 @@
+*{
+      box-sizing: border-box;
+
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+img{
+  width: 100%;
+  display: inline;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+.text-container{
+  width: 40%;
+  font-size: 20px;
+}
+
+.photo-princ{
+  width: 50%;
+}
+
+.photo-description1{
+  width: 30%;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.photo-description2{
+  width: 30%;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.photo-description3{
+  width: 30%;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.nike-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
